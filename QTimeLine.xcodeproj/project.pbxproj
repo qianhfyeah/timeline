@@ -41,6 +41,7 @@
 		448F313A1EE7D82700FD2F45 /* QTimeLineMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTimeLineMask.m; sourceTree = "<group>"; };
 		448F313B1EE7D82700FD2F45 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		448F313C1EE7D82700FD2F45 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		448F92D51F8F689A0020C6C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 		448F312B1EE7D7BD00FD2F45 /* QTimeLine */ = {
 			isa = PBXGroup;
 			children = (
+				448F92D51F8F689A0020C6C9 /* README.md */,
 				448F31351EE7D82700FD2F45 /* QTimeLineContent.h */,
 				448F31361EE7D82700FD2F45 /* QTimeLineContent.m */,
 				448F31371EE7D82700FD2F45 /* QTimeLineDate.h */,
@@ -271,6 +273,7 @@
 				448F31341EE7D7BD00FD2F45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
