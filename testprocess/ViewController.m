@@ -10,7 +10,7 @@
 #import "testview.h"
 #import "QTimeLine.h"
 
-@interface ViewController ()
+@interface ViewController () <QTimeLineDelegate>
 
 @end
 
@@ -22,14 +22,23 @@
     
     
     QTimeLine * tl = [[QTimeLine alloc]initWithFrame:CGRectMake(0, 100, 700, 60)];
-    
+    tl.delegate = self;
     [self.view addSubview:tl];
     
+}
+
+- (void) timelineMoveToDate:(NSDate*)date {
+    NSLog(@"%@", date);
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)timelineDisplayUpdate:(NSDate *)from to:(NSDate *)to customview:(UIView *)customview {
+    
+}
+
 
 @end
